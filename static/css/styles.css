@@ -1,0 +1,57 @@
+/* Custom CSS for CV Maker */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Navbar (optional) */
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+  }
+  
+  /* Landing Page */
+  .homepage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Category Cards */
+  .card {
+    transition: transform 0.3s; /* Add hover effect */
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+  }
+  
+  /* Customization Page Inputs */
+  .form-control {
+    margin: 15px 0;
+    border-radius: 8px;
+    padding: 12px;
+  }
+  
+  /* Download Button */
+  .btn-download {
+    background-color: #007bff; /* Bootstrap blue */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    border: none;
+  }
+  /* Mobile responsiveness */
+@media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+    
+    .homepage h1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
